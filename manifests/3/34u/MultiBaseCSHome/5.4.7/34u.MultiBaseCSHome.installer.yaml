@@ -4,6 +4,10 @@
 PackageIdentifier: 34u.MultiBaseCSHome
 PackageVersion: 5.4.7
 InstallerLocale: de-DE
+Deprecation:
+  DeprecationCause: ReplacedByNewUpdateTypeLTS
+  AlternativePackageId:
+    - Hersteller.34u.MultiBaseCS.Home.LTS
 InstallerType: zip
 NestedInstallerType: msi
 NestedInstallerFiles:
