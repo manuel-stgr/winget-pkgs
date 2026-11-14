@@ -21,7 +21,10 @@ AppsAndFeaturesEntries:
 InstallationMetadata:
   DefaultInstallLocation: '%ProgramFiles%\Moonlight Game Streaming'
 Installers:
-- Architecture: x86
+- Architecture: x64
+  InstallerUrl: https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.2.0/MoonlightSetup-6.2.0.exe
+  InstallerSha256: EE2A1B56EC83010F4F8A275BB71892A7DC7A3BC874DFAEBE706B74D5D10831BD
+- Architecture: arm64
   InstallerUrl: https://github.com/moonlight-stream/moonlight-qt/releases/download/v6.2.0/MoonlightSetup-6.2.0.exe
   InstallerSha256: EE2A1B56EC83010F4F8A275BB71892A7DC7A3BC874DFAEBE706B74D5D10831BD
 ManifestType: installer
